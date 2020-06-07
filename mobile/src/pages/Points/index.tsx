@@ -123,32 +123,32 @@ const Points = () => {
         <View style={styles.mapContainer}>
           { initialPosition[0] !== 0 && (
             <MapView 
-              style={styles.map}
-              loadingEnabled={initialPosition[0] === 0}
-              initialRegion={{
-                latitude: initialPosition[0],
-                longitude: initialPosition[1],
-                latitudeDelta: 0.014,
-                longitudeDelta: 0.014,
-              }}
-            >
-            {points.map(point => (
-              <Marker
-                key={String(point.id)}
-                style={styles.mapMarker}
-                onPress={() => handleNavigateToDetail}
-                coordinate={{
-                  latitude: point.latitude,
-                  longitude: point.longitude,
-                }} 
-              >
-              <View style={styles.mapMarkerContainer}>
-                <Image style={styles.mapMarkerImage} source={{uri: point.image_url}} />
-                <Text style={styles.mapMarkerTitle}>{point.name}</Text>
-              </View>
-            </Marker>
-           ))}
-          </MapView>  
+                style={styles.map}
+                loadingEnabled={initialPosition[0] === 0}
+                initialRegion={{
+                  latitude: initialPosition[0],
+                  longitude: initialPosition[1],
+                  latitudeDelta: 0.014,
+                  longitudeDelta: 0.014,
+                }}
+                  >
+                {points.map(point => (
+                  <Marker
+                    key={String(point.id)}
+                    style={styles.mapMarker}
+                    onPress={() => handleNavigateToDetail}
+                    coordinate={{
+                      latitude: point.latitude,
+                      longitude: point.longitude,
+                    }} 
+                    >
+                    <View style={styles.mapMarkerContainer}>
+                      <Image style={styles.mapMarkerImage} source={{uri: point.image_url}} />
+                      <Text style={styles.mapMarkerTitle}>{point.name}</Text>
+                    </View>
+                  </Marker>
+                ))}
+              </MapView>  
           )}
         </View>
       </View>

@@ -32,7 +32,7 @@ interface IBGECityResponse {
 
 const CreatePoint = () => {
 
-
+  //Estados das informações
   const [items, setItems] = useState<Item[]>([])
   const [ufs, setUfs] = useState<string[]>([])
   const [cities, setCities] = useState<string[]>([])
@@ -54,7 +54,7 @@ const CreatePoint = () => {
   const history = useHistory()
   
 
-
+//Posição inicial mapa
  useEffect(() => {
 
    navigator.geolocation.getCurrentPosition(position => {
@@ -64,14 +64,14 @@ const CreatePoint = () => {
    })
  }, []) 
 
-   
+  //trazendo items
   useEffect(() => {
     api.get('items').then(response => {
       setItems(response.data);
     });
   }, [])
 
-
+// Trazendo os estados
   useEffect(() => {
     axios
       .get<IBGEUFResponse[]>('https://servicodados.ibge.gov.br/api/v1/localidades/estados')
@@ -82,7 +82,7 @@ const CreatePoint = () => {
     })
   }, [])
 
-  // Será executada quando mudar a UF
+  // Será executada quando mudar a UF. Trará as cidades referentes a cada estado
   useEffect(() => {
     if (selectedUF === '0') {
       return;
