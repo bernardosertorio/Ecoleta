@@ -18,7 +18,7 @@ O projeto **Ecoleta** foi desenvolvido dentro da semana **Next Level Week (NLW)*
 - [TypeScript](https://www.typescriptlang.org/)
 - [Express](https://expressjs.com/pt-br/) 
 - [SQLite](https://www.sqlite.org/index.html)
-- [Kenx](http://knexjs.org/)
+- [Knex](http://knexjs.org/)
 - [Cors](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Controle_Acesso_CORS)
 - [Celebrate](https://github.com/arb/celebrate) 
 
