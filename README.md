@@ -53,7 +53,10 @@ $ cd nlw-ecoleta
 # Instalar as dependências 
 $ npm install
 
-# Iniciar o projeto
+# Iniciar o projeto no Back-end
+$ npm run dev
+
+# Iniciar o projeto no Front-end
 $ npm start
 ```
 
