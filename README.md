@@ -6,13 +6,12 @@
   <img src="web/src/assets/home-background.svg">
 </h1>
 
-## 🔖 Sobre
+## 🔖 About
 
-O projeto **Ecoleta** foi desenvolvido dentro da semana **Next Level Week (NLW)** da escola de programação RocketSeat. O objetivo da aplicação é conectar pessoas que queiram direcionar resíduos recicláveis com locais que recebam e façam coletas seletivas. 
-
+The Ecoleta project was developed within the week Next Level Week (NLW) of the RocketSeat programming school. The purpose of the application is to connect people who want to direct recyclable waste to locations that receive and make selective collections.
 ---
 
-## 💻 📱 Tecnologias utilizadas Back-end
+## 💻 📱 Technologies used Back-end
 
 - [NodeJs](https://nodejs.org/en/)
 - [TypeScript](https://www.typescriptlang.org/)
@@ -24,7 +23,7 @@ O projeto **Ecoleta** foi desenvolvido dentro da semana **Next Level Week (NLW)*
 
 ---
 
-## 💻 Tecnologias utilizadas Web
+## 💻  Technologies used Web
 
 - [ReactJs](https://pt-br.reactjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
@@ -32,7 +31,7 @@ O projeto **Ecoleta** foi desenvolvido dentro da semana **Next Level Week (NLW)*
 
 ---
 
-## 📲 Tecnologias utilizadas Mobile
+## 📲 Technologies used Mobile
 
 - [ReactNative](https://reactnative.dev/)
 - [Expo](https://expo.io/)
@@ -41,26 +40,26 @@ O projeto **Ecoleta** foi desenvolvido dentro da semana **Next Level Week (NLW)*
 
 ---
 
-## ⇣ Como baixar o projeto
+## ⇣ How to download the project
 
 ```bash
-# Clonar o repositório
+# Clone the repository
 $ git clone https://github.com/bernardosertorio/Ecoleta/
 
-# Entrar no diretório
+# Enter directory
 $ cd nlw-ecoleta 
 
-# Instalar as dependências 
+# Install the dependencies 
 $ npm install
 
-# Iniciar o projeto no Back-end
+# Start the project on the Back-end
 $ npm run dev
 
-# Iniciar o projeto no Front-end
+# Start the project on the Front-end
 $ npm start
 ```
 
 ---
 
-Desenvolvido por 😃 Bernardo Sertório
+Developed by 😃 Bernardo Sertório
 
